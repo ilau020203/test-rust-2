@@ -1,0 +1,17 @@
+transfers:
+  - sender_keypair_path: "~/.config/solana/test-wallet.json"
+    receiver_address: "BDCpA8wyveUczgHgPLss2HpHEHzXr1qMSKPd5MsCmtpz"
+    amount_sol: 0.02
+  - sender_keypair_path: "~/.config/solana/test-wallet-2.json"
+    receiver_address: "9t5o3FSNSysNpQEVDMb955f9XGPSn3ZnrqRzf37yKCKC"
+    amount_sol: 0.01
+  # - sender_private_key: "3MgtnFubEjCin9RRutbtYF16JSyMRFyvEPzagkz3R5y2C2KW25EftGxV1Mm9px4KuZjA8h7MoRAcNqHUC9HWoB6r" # 9t5o3FSNSysNpQEVDMb955f9XGPSn3ZnrqRzf37yKCKC
+  #   receiver_address: "Acidpz5NEZpkHU7DNCz5b5D7n7yxZU5inkdA6oA2LaAy"
+  #   amount_sol: 0.023
+  # - sender_private_key: "4BEcyuXpTALsej6QEYnEGw9Whz15TYEBpWdc6A9prxEC5qrN97ZrFY8chpcn7fDvSPcgExZz6xyMUSkSq5dzp1GE" # BDCpA8wyveUczgHgPLss2HpHEHzXr1qMSKPd5MsCmtpz
+  #   receiver_address: "Acidpz5NEZpkHU7DNCz5b5D7n7yxZU5inkdA6oA2LaAy"
+  #   amount_sol: 0.031
+
+
+# rpc_url: "https://api.devnet.solana.com" 
+rpc_url: "http://127.0.0.1:8899" 
